@@ -84,7 +84,10 @@ copied the content in id_rsa.pub to slave machine /.ssh/authorized_keys
 
 
 
-# 
+Dockerfile
+
+```
+# Original credit: https://github.com/jpetazzo/dockvpn
 
 # Smallest base image
 FROM alpine:latest
@@ -118,3 +121,5 @@ RUN chmod a+x /usr/local/bin/*
 
 # Add support for OTP authentication using a PAM module
 ADD ./otp/openvpn /etc/pam.d/
+
+```
