@@ -84,7 +84,12 @@ copied the content in id_rsa.pub to slave machine /.ssh/authorized_keys
 
 
 
+
+
+
+
 Dockerfile
+
 
 ```
 # Original credit: https://github.com/jpetazzo/dockvpn
